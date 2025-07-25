@@ -13,8 +13,8 @@ export class FilterC extends BaseController {
   public testCustomFilter(
     @Filter([
       {
-        Column: 'Foo',
-        Operators: ['eq', 'gt'],
+        column: 'Foo',
+        operators: ['eq', 'gt'],
       },
     ])
     filter: IFilter[],
